@@ -1,0 +1,32 @@
+.progress-title {
+    font-weight: 100;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    width: 0%;
+    border-radius: 15px;
+    height: 100%;
+    -webkit-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+}
+
+.green {
+    background-color: #2ECC71;
+}
+
+.yellow {
+    background-color: #F1C40F;
+}
+
+.red {
+    background-color: #E74C3C;
+}
