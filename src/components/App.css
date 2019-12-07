@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: #333333;
+}
+
+.root {
+  display: flex;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: red;
+}
