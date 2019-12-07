@@ -5,6 +5,7 @@
     border-radius: 15px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    max-width: 45%;
 }
 
 .project img {
@@ -31,3 +32,9 @@
 .project .description * {
     margin: .5rem auto .5rem .5rem;
 }
+
+@media only screen and (max-width: 64em) { 
+    .project {
+        max-width: none;
+    }
+} 

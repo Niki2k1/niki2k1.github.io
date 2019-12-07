@@ -22,9 +22,11 @@ function App() {
       <ProgressBar title="PHP" value="30" color="yellow"></ProgressBar>
       <ProgressBar title="Adobe Photoshop and Premiere" value="55" color="green"></ProgressBar>
       <ProgressBar title="Unity Game Developement" value="10" color="red"></ProgressBar>
-      <Project img="/projects/partyplanner.png" title="PartyPlanner">PartyPlanner ist ein Planungs-Tool um WhatsappGruppen für Unternehmungen Obsolet zu machen</Project>
-      <Project img="/projects/lightainer.png" title="Lightainer">With Lightainer you can easily maintain, monitor and configure your server.</Project>
-    </div>
+      <div className="projects">
+        <Project img="/projects/partyplanner.png" title="PartyPlanner">PartyPlanner ist ein Planungs-Tool um WhatsappGruppen für Unternehmungen Obsolet zu machen</Project>
+        <Project img="/projects/lightainer.png" title="Lightainer">With Lightainer you can easily maintain, monitor and configure your server.</Project>
+      </div>
+      </div>
   );
 }
 
