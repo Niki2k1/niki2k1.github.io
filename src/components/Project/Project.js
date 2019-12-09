@@ -4,13 +4,13 @@ import './Project.css';
 class Project extends React.Component {
 
     render() {
-        return <div className="project">
+        return <a className="project" href={ "/projects/" + this.props.title }>
             <img src={ this.props.img } alt="project"></img>
             <div className="description">
                 <h2>{ this.props.title }</h2>
                 <p>{ this.props.children }</p>
             </div>
-        </div>
+        </a>
     }
 }
 export default Project;
