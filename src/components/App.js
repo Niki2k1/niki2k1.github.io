@@ -18,9 +18,10 @@ function App() {
         <span><FontAwesomeIcon icon={faBuilding} /> <a href="https://flyeralarm.com/karriere" target="_blank" rel="noopener noreferrer">Flyeralarm</a></span>
         <span><FontAwesomeIcon icon={faEnvelope}/> <a href="mailto:support@niki2k1.de">support@niki2k1.de</a></span>
       </div>
-      <ProgressBar title="JavaScript Stack (NodeJS, React, Typescript)" value="70" color="green"></ProgressBar>
+      <ProgressBar title="JavaScript Stack (NodeJS, React, Vue, Typescript)" value="70" color="green"></ProgressBar>
       <ProgressBar title="PHP" value="30" color="yellow"></ProgressBar>
       <ProgressBar title="Adobe Photoshop and Premiere" value="55" color="green"></ProgressBar>
+      <ProgressBar title="Devops (Docker, Continious Integration, Deployments)" value="25" color="yellow"></ProgressBar>
       <div className="projects">
         <Project img="/projects/partyplanner_dark.png" title="PartyPlanner">PartyPlanner ist ein Planungs-Tool um WhatsappGruppen für Unternehmungen Obsolet zu machen</Project>
         <Project img="/projects/lightainer_dark.png" title="Lightainer">With Lightainer you can easily maintain, monitor and configure your server.</Project>
