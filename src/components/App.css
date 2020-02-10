@@ -54,3 +54,9 @@ body {
     justify-content: space-around;
   }
 } 
+
+.markdown {
+  background-color: #F6F8FA;
+  color: #333333;
+  padding: 2rem;
+}
