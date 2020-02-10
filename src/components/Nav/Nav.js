@@ -4,7 +4,7 @@ import './Nav.css';
 class Nav extends React.Component {
 
     render() {
-        return <div className="nav">
+        return <div className="nav Header">
             <a href="/"><img width="110px"  src="/logo512.png" alt="Logo"/></a>
             <h1>Niki2k1</h1>
             <div className="icons">

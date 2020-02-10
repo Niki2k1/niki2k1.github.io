@@ -3,13 +3,13 @@
     overflow: hidden;
     position: relative;
     border-radius: 15px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 45%;
+    background: linear-gradient(137deg, rgba(182,220,255,1) 0%, rgba(185,182,229,1) 100%);
 }
 
 .project img {
     max-width: 100%;
+    margin: auto;
+    max-height: 100%;
     transition: transform .5s ease;
 }
 
@@ -22,11 +22,12 @@
     flex-direction: column;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: -webkit-fill-available;
     z-index: 2;
     background-color: rgba(255, 255, 255, 0.3);
     padding: .5rem;
     color: #262832;
+    min-height: 7rem;
 }
 
 .project .description * {
@@ -35,6 +36,6 @@
 
 @media only screen and (max-width: 64em) { 
     .project {
-        max-width: none;
+        margin: 1rem;
     }
 } 
