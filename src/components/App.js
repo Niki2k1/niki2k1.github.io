@@ -27,7 +27,7 @@ function App() {
       <div className="Projects">
         <Project img="/projects/new/PartyPlanner.png" title="PartyPlanner">PartyPlanner ist ein Planungs-Tool um WhatsappGruppen für Unternehmungen Obsolet zu machen</Project>
         <Project img="/projects/new/Lightainer.png" title="Lightainer">With Lightainer you can easily maintain, monitor and configure your server.</Project>
-        <Project img="/projects/new/Lightainer.png" title="Frontend Framework">A small frontend library with react components to build web applications.</Project>
+        <Project img="/projects/new/Frontend.png" title="Frontend Framework">A small frontend library with react components to build web applications.</Project>
         <Project img="/projects/new/YoutubeMultiplayer.png" title="YoutubeMultiPlayer">A webapp for watching Youtube videos synced with your Friends (like watch2gether).</Project>
       </div>
       </div>
