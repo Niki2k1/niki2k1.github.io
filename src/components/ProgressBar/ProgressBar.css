@@ -20,13 +20,13 @@
 }
 
 .green {
-    background-color: #2ECC71;
+    background: linear-gradient(137deg, rgba(152,224,95,1) 0%, rgba(13,227,172,1) 100%);
 }
 
 .yellow {
-    background-color: #F1C40F;
+    background: linear-gradient(137deg, rgba(219,227,14,1) 0%, rgba(227,236,82,1) 100%);
 }
 
 .red {
-    background-color: #E74C3C;
+    background: linear-gradient(137deg, rgba(255,136,124,1) 0%, rgba(182,50,95,1) 100%);
 }

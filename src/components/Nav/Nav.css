@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    grid-area: Header;
+}
+
+.nav a {
+    margin: auto .5rem auto .5rem;
 }
 
 .nav img {
@@ -20,6 +25,6 @@
 }
 
 .nav .icons img {
-    width: 25px;
+    width: 2.5rem;
     margin: auto .5rem auto .5rem;
 }
